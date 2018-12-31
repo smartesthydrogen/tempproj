@@ -1,0 +1,71 @@
+#intro{
+    text-align: center;
+    position: fixed;
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    width: 100%;
+    background-color: rgba(155, 80, 80, 0.5); 
+    z-index: 10; 
+}
+
+#this{
+    display: inline-block; 
+    background-color: red; 
+    padding: 1%; 
+    border-radius: 20px; 
+    /*need to make the curvature better*/ 
+}
+
+#splash{
+    background-image: url(ether.png);
+    height: 157px; 
+}
+
+#left{
+    width: 20%; 
+    border-style: solid; 
+    border-color: blue; 
+}
+
+#middle{
+    width: 40%; 
+    border-style: solid; 
+    border-color: red; 
+}
+
+#navbar{
+    width: 100%;
+    list-style-type: none; 
+    text-align: center; 
+    text-align: center; 
+    margin-top: 3%; 
+}
+
+.nav{
+   /*The color goes away cause all elements are float, so height is zero!*/
+    background-color: lightblue;
+    padding: 3%; 
+    margin: 2%;
+    display: inline-block; 
+    border-radius: 3%; 
+}
+
+.nav:hover{
+    background-color: green; 
+}
+
+a:link{
+    text-decoration: none; 
+}
+
+#maincols{
+}
+
+.main{
+    display: inline-block; 
+    background-color: lightblue;
+    width: 49.7%; 
+    text-align: center; 
+    min-height: 30%; 
+}
